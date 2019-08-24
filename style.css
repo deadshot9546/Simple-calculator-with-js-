@@ -1,0 +1,129 @@
+body{
+
+font-family: 'open sans' sans-serif;
+background-image: url(images/math.jpg);
+}
+
+#calculator{
+
+width: 320px;
+height: 520px;
+background-color: whitesmoke;
+margin: 0 auto;
+top: 20px;
+position: relative;
+border-radius: 7px;
+box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.3) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#result{
+
+    height: 120px;
+}
+
+#screenHistory{
+
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:#919191;
+
+}
+
+#screen{
+
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.calcBtn{
+
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.calcBtn{
+
+    background-color:  rgb(250, 215, 236);
+}
+
+.calcBtn{
+
+    cursor: pointer;
+}
+
+.calcBtn:active{
+
+    font-size: 13px;
+}
+
+.calcBtn:focus{
+
+    outline: 0;
+}
+
+button:nth-child(4){
+
+    font-size: 20px;
+    background-color: steelblue;
+}
+button:nth-child(8){
+
+    font-size: 20px;
+    background-color: purple;
+}
+button:nth-child(12){
+
+    font-size: 20px;
+    background-color: goldenrod;
+}
+button:nth-child(16){
+
+    font-size: 20px;
+    background-color: orchid;
+
+}
+button:nth-child(20){
+
+    font-size: 20px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+#buttonsPanel{
+
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
